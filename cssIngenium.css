@@ -24,7 +24,7 @@ body{
 .header{
     width: 100%;
     height: 30vh;
-    
+    background: aqua;
 }
 
 .ingeniumLogo{
@@ -86,14 +86,6 @@ span.moveMargin {
 }
 
 @media(min-width:1000px){
-    .bannerProd{
-        float: right;
-        background-image: url('./imgsIngenium/INGENIEROS.png');
-    }
-    .header{
-        height: 40vh;
-       
-    }
     #infoProd{
         float: left;
         width: 65%;
