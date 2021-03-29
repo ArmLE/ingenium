@@ -35,7 +35,7 @@
     <main class="main">
         <section>
             <div class="container">
-                <h5>Hola <span>{$contact_name}</span> </h5>
+                <h5>Hola <span style="color: #9B004C;">{$contact_name}</span> </h5>
                 <p>¿como estas? </p>
                 <p>
                     A nombre de Ingenium | Escuela de Formación Profesional tenemos el agrado de saludarle y agradecerte por tu interés en seguir capacitándote,
@@ -45,10 +45,10 @@
                 </p>
             </div>
         </section>
-        <section class="container p-3 my-5 rounded-3" style="background: #E5E8EA;">
+        <section class="container p-3 my-5 pt-5 rounded-3" style="background: #E5E8EA;">
             <div class="row">
                 <div class="col-lg-6 col-xs-12 justify-content-between mb-3 ">
-                    <h4 style="color: #9B004C;"><i class="fas fa-calendar-alt"></i> Inicio de clases: <span>{$start_date}</span>  </h4>
+                    <h4 style="color: #9B004C;"><img width="22" height="22"src="./imgsIngenium/fecha.png"> Inicio de clases: <span>{$start_date}</span>  </h4>
                         <ul class="list-unstyled ps-4">
                             <li>{$class_day1} de {$class_day1_start} a {$class_day1_start} horas. </li>
                             <li>{$class_day2} de {$class_day1_start} a {$class_day2_start} horas. </li>
@@ -56,20 +56,20 @@
                         </ul>
                 </div>
                 <div class="col-lg-6 col-xs-12 mb-3">
-                    <h4 style="color: #9B004C;"><i class="fas fa-certificate"></i> Certificación</h4>
+                    <h4 style="color: #9B004C;"><img width="22" height="22"src="./imgsIngenium/certificado.png"> Certificación</h4>
                         <ul class="list-unstyled ps-4">
                             <li>Certificado como <span>{$product_name}</span> emitido por Ingenium | Escuela de Formación Profesional</li>
                         </ul>
                 </div>
                 <div class="col-lg-6 col-xs-12 mb-3">
-                    <h4 style="color: #9B004C;"><i class="far fa-clock"></i> Duración</h4>
+                    <h4 style="color: #9B004C;"><img width="22" height="22"src="./imgsIngenium/duracion.png"> Duración</h4>
                         <ul class="list-unstyled ps-4">
                             <li>{$total_class_hours} horas cronologicas</li>
                             <li>2 sessione por semana (2 horas por sesion)</li>
                         </ul>
                 </div>
                 <div class="col-lg-6 col-xs-12 mb-3">
-                    <h4 style="color: #9B004C;"><i class="fas fa-eye"></i> Modalidad: Online en vivo</h4>
+                    <h4 style="color: #9B004C;"><img width="22" height="22"src="./imgsIngenium/online.png"> Modalidad: Online en vivo</h4>
                         <ul class="list-unstyled ps-4">
                             <li>Sesiones 100% en tiempo real(no grabaciones)
                                 en nuestra plataforma</li>
@@ -111,55 +111,56 @@
         </section>
         <div class="container py-5 " style="background: #E5E8EA;">
             <div class="row bg-gradient">
-                <div class="col-lg-6 col-xs-12 mb-3 d-flex justify-content-center">
+                <div class="col-lg-3 col-xs-12 mb-3 d-flex justify-content-center">
                     <section>
-                        <img src="baner.jpg" class="img-thumbnail" alt="Responsive image">
+                        <img src="./imgsIngenium/webinar-IMAGEN.png" class="img-fluit" alt="Responsive image">
                     </section>
                 </div>
-                <div class="ps-3 col-lg-6 col-xs-12">
+                <div class="ps-3 col-lg-9 col-xs-12">
                     <h4 style="color: #9B004C;">Nos importa tu experiencia</h4>
                     <p class="ps-2">accede a una clase  en vivo !Gratis!</p>
                     <p class="ps-2">{$next_webinar_name}</p>
-                    <div class="text-center">
-                        <button class="btn btn-danger">
+                    <p class="ps-2">{$next_webinar_date} {$next_webinar_time}</p>
+                    <div>
+                        <button class="btn text-white "  style="background-color: #9B004C;">
                             Registrarme
                         </button>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="container mt-5 ps-3">
+        <div class="container mt-5 ps-3" >
             <h3 style="color: #9B004C;" class="text-decoration-underline">INVERSIÓN</h3>
                 <div class="row">
-                    <div class="col-6 ps-5">
+                    <div class="col-5 ps-5 col-xl-2 ">
                         <label for="" class="col-form-label">Inversión Total</label>
                     </div>
-                    <div class="col-4 col-lg-2">
-                        <label type="text" id="" class="form-control"  >S./ {$unit_price}</label>
+                    <div class="col-5 col-lg-2 border-start"style="border-color: #9B004C;" >
+                        <label id="" >S./ {$unit_price}</label>
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-6 ps-5">
+                    <div class="col-5 ps-5 col-xl-2 ">
                         <label for="" class="col-form-label">Matrícula</label>
                     </div>
-                    <div class="col-4 col-lg-2">
-                        <label type="text" id="" class="form-control"  >S./ {$enrollment_price}</label>
+                    <div class="col-5 col-lg-2 border-start">
+                        <label type="text" id="" >S./ {$enrollment_price}</label>
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-6 ps-5">
+                    <div class="col-5 ps-5 col-xl-2" >
                         <label for="" class="col-form-label">Cuotas (2)</label>
                     </div>
-                    <div class="col-4 col-lg-2">
-                        <label type="text" id="" class="form-control"  >S./ {$remaining_fees}</label>
+                    <div class="col-5 col-lg-2 border-start">
+                        <label type="text" id=""  >S./ {$remaining_fees}</label>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col-6 ps-5">
+                <div class="row pt-3">
+                    <div class="col-5 ps-5 col-xl-2 ">
                         <label for="" class="col-form-label">1 solo pago</label>
                     </div>
-                    <div class="col-4 col-lg-2">
-                        <label type="text" id="" class="form-control"  >S./ {$cash_price}</label>
+                    <div class="col-5 col-lg-2 border-start">
+                        <label type="text" id=""  >S./ {$cash_price}</label>
                     </div>
                 </div>
         </div>
@@ -179,7 +180,7 @@
             <div class="row">
                 <div class="text-center">
                     <h5>¿Ya tomaste la decisión de participar? Completa tu registro aquí -->
-                    <button class="btn btn-warning mt-1">Ficha Matricula</button>
+                    <button class="btn text-white "  style="background-color: #9B004C;">Ficha Matricula</button>
                     </h5>
                 </div>
             </div>
@@ -188,7 +189,7 @@
             <div class="container text-center">
                 <p>
                     Esta es una excelente oportunidad para desarrollarte y fortalecer tus conocimientos. Si tienes dudas o consultas contáctame aquí --->
-                <a class="btn btn-success" href="https://web.whatsapp.com/"> <i class="fab fa-whatsapp"></i> Whatsapp</a>
+                <a  style="background-color: #1BB52B;" class="btn text-white" href="https://web.whatsapp.com/"> <i class="fab fa-whatsapp"></i>  Whatsapp</a>
                 </p>
             </div>
         </div>
