@@ -1,0 +1,603 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <style>
+    @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=PT+Sans:wght@400;700&family=Poppins:wght@400;500;600&family=Titillium+Web:wght@400;600;700&display=swap');
+    
+    table,thead,tbody,tr,td,img {
+        padding: 0;
+        margin: 0;
+        border: none;
+        border-spacing: 0px;
+        border-collapse: collapse;
+        vertical-align: top;
+    }
+    .wrapper {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    h1,h2,h3,h4,h5,h6,p {
+        margin: 0;
+        padding: 0;
+        padding-bottom: 18px;
+        line-height: 1.6;
+        /*font-family: 'Helvetica', 'Arial', sans-serif;*/
+    }
+    p,a,li {
+        /*font-family: 'Helvetica', 'Arial', sans-serif;*/
+    }
+    ul{
+        padding-left: 15px;
+        height: 60px;
+    }
+    img {
+        /*width:100%;*/
+        display: block;
+    }
+    .move{
+            padding: 0px 0px 0px 45px;
+    }
+    @media only screen and (max-width: 620px) {
+        .wrapper .section {
+            width: 100%;
+        }
+
+        .wrapper .column {
+            width: 100%;
+            display: block;
+        }
+        .move{
+            padding: 0px 0px 0px 10px;
+        }
+        
+    }
+    </style>
+</head>
+<body 
+style="margin:0; border:none; border-spacing: 0;
+border-collapse: collapse; vertical-align: top;
+
+width: 803px; padding: 12px 29.22px 0px 23.44px;
+
+">
+
+    <table style="margin:0; padding:0; 
+    border:none; border-spacing: 0; border-collapse: collapse; 
+    vertical-align: top; 
+    background-image: url('https://ingenium.edu.pe/crm/layouts/v7/skins/imgsIngenium/FONDO-GRANATE.png');
+    background-size: 700px;"
+    
+    cellpadding="0" cellspacing="0" width="750.34">
+
+        <tbody style="margin:0; padding:0; 
+        border:none; border-spacing: 0; border-collapse: collapse; 
+        vertical-align: top;">
+            <tr style="margin:0; padding:0; 
+            border:none; border-spacing: 0; border-collapse: collapse; 
+            vertical-align: top;
+            background: linear-gradient(70deg, #9B004C 200px,#9B004C 600px, transparent 955px);">
+                <td style="margin:0; border:none; border-spacing: 0; border-collapse: collapse; 
+                padding:22.35px 0 0 33.56px; vertical-align: top;" align="left">
+                    <img src="https://ingenium.edu.pe/crm/layouts/v7/skins/imgsIngenium/LOGO.png" alt="" width="101" style="margin-bottom:23px;">
+                    <table style="margin:0; padding:0; 
+                    border:none; border-spacing: 0; border-collapse: collapse; width: 100%;" max-width="400" >
+                        <tr>
+                                <td> 
+                                    <span style="font-family: 'Titillium Web'; color: white; font-size: 17px; font-weight: 400;" >{$prodcut_category}
+                                    </span> 
+                                    <br>
+                                    <span style="font-family: 'Titillium Web'; color:white; font-size:27px; font-weight:700; line-height: 27px; text-transform: uppercase;">{$product_name}</span>
+                                    <p style="font-family: 'Titillium Web'; color: white; font-size: 14px; font-weight: 600; margin: 26px 0 0 0" >Modalidad: Online (En vivo)</p>
+                                </td>
+                        </tr>       
+                    </table>
+                </td>
+                <td style=" margin:0; padding:0; 
+                border:none; border-spacing: 0; border-collapse: collapse; 
+                vertical-align: top; width: 30%; ">
+                        <img src="https://ingenium.edu.pe/crm/layouts/v7/skins/imgsIngenium/INGENIEROS.png" alt="" style="margin:0; padding:0; 
+                        border:none; border-spacing: 0; border-collapse: collapse; 
+                        vertical-align: top; height: 243.19px;"> <!--Already Fixed-->
+                      
+                </td>
+            </tr>
+        </tbody>
+
+    </table>
+
+    
+    <table style="margin:25.32px 0 0 0; " width="750.34"
+    cellpadding="0" cellspacing="0">
+
+        <tbody>
+            <tr>
+                <td width="750.34" align="left"  >
+                    <strong style="font-family:'PT Sans'; font-size: 12px;"> 
+                        <strong> ¡Hola</strong> &nbsp; 
+                        <strong style="color: #9B004C;">{$contact_name}</strong>!
+                    </strong>
+                </td>
+
+            </tr>
+            <tr style="line-height: 40px;">
+                <td  align="left"> 
+                    <span style="font-family: 'PT Sans'; font-size:12px; color: #3C4857">¿Cómo estás?</span>
+                </td>
+            </tr>
+            <tr>
+                <td  align="left">
+                    <p style="font-family: 'PT Sans'; font-size:12px; color:#3C4857;line-height: 15px;">A nombre de Ingenium | Escuela de Formación Profesional tenemos el agrado de saludarle y agradecerte por tu
+                            interés en seguir capacitándote, <br> por eso te presentamos nuestro {$product_category} en 
+                            &nbsp;<span style="color: #9B004C; font-weight: bold; text-transform: uppercase;" >{$product_name}</span>.
+                    </p>
+                    
+
+                </td>
+            </tr>
+
+        </tbody>
+
+    </table>
+
+    <table width="750.34"
+    cellpadding="0" cellspacing="0" style="background-color:#F2F6F7;
+    padding: 20px 30px;">
+        <tbody>
+            <tr >
+                <td style="padding: 19px 8px 0px 28px;" width=50%>
+                    <table>
+                        <tbody>
+                            <tr>
+                                <td align="left">
+                                    <p style="font-family: 'Lato'; font-weight: 700; font-size: 13px; color: #9B004C; padding-bottom: 0px;">
+                                        <img width="15" height="15" style="vertical-align: text-top; display: inline;" src="https://ingenium.edu.pe/crm/layouts/v7/skins/imgsIngenium/fecha.png">&nbsp;&nbsp;Inicio de clases:
+                                        <span>{$start_date}</span>  
+                                    </p>
+                                    <ul style="margin-top: 8px; color: #3C4857;">
+                                        <li style="font-size: 12px; font-family: 'PT Sans'; font-weight: 200;">{$class_day1} de {$class_day1_start} a {$class_day1_start} horas. </li>
+                                        <li style="font-size: 12px; font-family: 'PT Sans'; font-weight: 200;">{$class_day2} de {$class_day1_start} a {$class_day2_start} horas. </li>
+                                    </ul>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td align="left">
+                                    <p style="font-family: 'Lato'; font-weight: 700; font-size: 13px; color: #9B004C; padding-bottom: 0px;">
+                                        <img width="15" height="15" style="vertical-align: text-top; display: inline;" src="https://ingenium.edu.pe/crm/layouts/v7/skins/imgsIngenium/Duracion.png">&nbsp;&nbsp;Duración
+                                          
+                                    </p>
+                                    <ul style="margin-top: 8px; margin-bottom: 0px;  color: #3C4857;">
+                                        <li style="font-size: 12px; font-family: 'PT Sans';  font-weight: 200;">{$total_class_hours} horas cronológicas - {$nro_meses} meses</li>
+                                        <li style="font-size: 12px; font-family: 'PT Sans';  font-weight: 200;">2 sessione por semana (2 horas por sesion)</li>
+                                    </ul>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+                <td></td>
+                <td style="padding: 19px 28px 0px 8px;">
+                    <table>
+                        <tbody>
+                            <tr>
+                                <td align="left">
+                                    <p style="font-family: 'Lato'; font-weight: 700; font-size: 13px; color: #9B004C; padding-bottom: 0px;">
+                                        <img width="15" height="15" style="vertical-align: text-top; display: inline;" src="https://ingenium.edu.pe/crm/layouts/v7/skins/imgsIngenium/certificado.png">&nbsp;&nbsp;Certificación
+                                        
+                                    </p>
+                                    <ul style="margin-top: 8px; color: #3C4857;">
+                                        <li style="font-size: 12px; font-family: 'PT Sans';  font-weight: 200;">Certificado como 
+                                            <span style="font-weight: bold; ">{$certificate_title} {$product_name}</span> emitido por 
+                                            <span style="font-weight: bold; "> Ingenium | Escuela de Formación Profesional.</span> 
+                                        </li>
+                                    </ul>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td align="left">
+                                    <p style="font-family: 'Lato'; font-weight: 700; font-size: 13px; color: #9B004C; padding-bottom: 0px;">
+                                        <img width="15" height="15" style="vertical-align: text-top; display: inline;" src="https://ingenium.edu.pe/crm/layouts/v7/skins/imgsIngenium/online.png">&nbsp;&nbsp; Modalidad: Online en vivo 
+                                         
+                                    </p>
+                                    <ul style="margin-top: 8px; margin-bottom: 0px; color: #3C4857;">
+                                        <li style="font-size: 12px; font-family: 'PT Sans';  font-weight: 200;">
+                                            <span style="font-weight: bold;"> Sesiones 100% en tiempo real (no grabaciones)</span>
+                                            en nuestra plataforma virtual.
+                                        </li>
+                                    </ul>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3" class="move">
+                    <p style="font-family: 'PT Sans'; font-size: 12px; color:#3C4857;">
+                        Puedes ver el <span style="font-weight: bold; ">cronograma</span> aquí&nbsp;-->&nbsp;
+                        <a style="background-color: #3C4857; padding: 5px 12px 7px 12px; text-decoration: none; border-radius: 7px; color:white; font-weight:bold; font-family: 'Lato';" href="{$payment_schedule_link}">
+                            Ver Cronograma
+                        </a>
+                    </p>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+    <table width="750.34" cellpadding="0" cellspacing="0"
+    style="margin: 30px 0 19px 0"
+    >
+        <caption align="left" style="display: block; text-align:start;">
+            <strong>
+                    <u style="color: #9B004C; font-size: 15px; font-family: 'Lato';">ESTRUCTURA&nbsp;CURRICULAR</u>
+            </strong>
+        </caption>
+        <tr>
+            <td style="padding-left: 30px;">
+                <ul style="margin-top: 14px;  height: auto; line-height: 26px;">
+                    <li style="font-size: 13px;    color: #9B004C;">
+                            &nbsp;&nbsp;<span style="color: #3C4857; font-family: 'Lato'; font-weight: 200;">{$curricular_structure}</span>
+                    </li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="3" class="move">
+                <p style="font-family: 'PT Sans'; font-size: 12px; padding-bottom: 0px; color:#3C4857;">
+                        Puedes ver el <span style="font-weight: bold; ">brochure</span> aquí&nbsp;-->&nbsp;
+                    <a style="background-color: #3C4857; padding: 5px 12px 7px 12px; text-decoration: none; border-radius: 7px; color:white; font-weight:bold; font-family: 'Lato';" href="{$brochure_link}">
+                            Ver Brochure
+                    </a>
+                </p>
+            </td>
+        </tr>
+    </table>
+    
+    <table width="750.34"
+    cellpadding="0" cellspacing="0" style="background-color:#E5E8EA;">
+        <tbody>
+            <tr >
+                <td style="padding: 23px 21px 23px 26px;" width="auto">
+                    <table>
+                        <tbody>
+                            <tr>
+                                <td align="left">
+                                    <img src="https://ingenium.edu.pe/crm/layouts/v7/skins/imgsIngenium/webinar-IMAGEN.png" alt="">
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+                <td></td>
+                <td style="padding: 8px 26px 23px 0px;" width="100%">
+                    <table>
+                        <tbody>
+                            <tr>
+                                <td align="left">
+                                    <strong style="font-size: 16px; font-family:'Lato';color:#9B004C; line-height: 32px;">Nos importa tu experiencia</strong>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td align="left">
+                                    <p style="line-height: 18px; padding-bottom: 14px;color: #262626;">
+                                        <strong style="font-family: 'PT Sans'; font-size:14px; text-transform: uppercase; ">accede a una clase  en vivo !Gratis!</strong><br>
+                                        <span style="font-size: 14px; font-family: 'PT Sans';">Webinar en&nbsp;<em>"{$next_webinar_name}"</em> </span><br>
+                                        <span style="font-size: 14px; font-family: 'PT Sans';">
+                                                {$next_webinar_date}&nbsp;de&nbsp;{$next_webinar_time}.
+                                        </span>
+                                    </p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td align="left">
+                                    <a style="background-color: #9B004C; padding: 6px 12px 7px 12px; text-decoration: none; border-radius: 7px; 
+                                        color:white; font-weight:bold; font-family: 'Lato'; font-size: 13.65px;" href="{$next_webinar_link}">
+                                            Registrarme
+                                    </a>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+    <table width="300" cellpadding="0" cellspacing="0"
+    style="margin: 24.17px 0 19px 0"
+    >
+        <caption align="left" style="display: block; text-align:start;">
+            <strong>
+                    <u style="color: #9B004C; font-size: 15px; font-family: 'Lato';">INVERSIÓN</u>
+            </strong>
+        </caption>
+        <tr  style="line-height: 28px;">
+            <td width="115" style="border-right-color: #9B004C; border-right-width: 1px;border-right-style: solid;">
+                <span style="font-size:13px; font-family:'Lato'; color:#3C4857;">Inversión Total</span>
+            </td>
+            <td>
+                <span style="font-size:13px; font-family:'Lato';color:#3C4857;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;S/.&nbsp;{$unit_price}</span>
+            </td>
+        </tr>
+        <tr style="line-height: 28px;">
+            <td width="115" style="border-right-color: #9B004C;border-right-width: 1px;border-right-style: solid;">
+                <span style="font-size:13px; font-family:'Lato';color:#3C4857;">Matrícula</span>
+            </td>
+            <td>
+                <span style="font-size:13px; font-family:'Lato';color:#3C4857;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;S/.&nbsp;{$enrollment_price}</span>
+            </td>
+        </tr>
+        <tr style="line-height: 28px;">
+            <td width="115" style="border-right-color: #9B004C;border-right-width: 1px;border-right-style: solid;">
+                <span style="font-size:13px; font-family:'Lato';color:#3C4857;">Cuotas&nbsp;(2)</span>
+            </td>
+            <td>
+                <span style="font-size:13px; font-family:'Lato';color:#3C4857;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;S/.&nbsp;{$remaining_fees}</span>
+            </td>
+        </tr>
+        
+        <tr style="line-height: 30px;">
+            <td colspan="2" >
+                <table style="margin-top:20px;" width="300"
+                    cellpadding="0" cellspacing="0">
+                    <tbody>
+                        <tr>
+                            <td width="115" style="border-right-color: #9B004C;border-right-width: 1px;border-right-style: solid; ">
+                                <strong style="font-size:13px; font-family:'Lato';color:#3C4857;">1&nbsp;solo&nbsp;pago</strong>
+                            </td>
+                            <td >
+                                <strong style="font-size:13px; font-family:'Lato';color:#3C4857;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;S/.&nbsp;{$cash_price}</strong>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </td>
+                
+
+            
+        </tr>
+    </table>
+
+    <table width="750.34" cellpadding="0" cellspacing="0"
+    style="margin: 30px 0 19px 0"
+    >
+        <caption align="left" style="display: block; text-align:start;">
+            <strong>
+                    <u style="color: #9B004C; font-size: 15px; font-family: 'Lato';">FORMAS&nbsp;DE&nbsp;PAGO</u>
+            </strong>
+        </caption>
+        <tr>
+            <td style="font-size: 13px; font-family: 'Lato'; color:#3C4857;">
+                <p style="padding:10px 0 0 0;">
+                    Puede realizar el abono de su inscripción sea en cuotas o al contado por los siguientes medios:  
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td style="font-size: 13px; font-family: 'Lato';color:#3C4857;padding-left: 30px;">
+                <ul style="line-height: 26px; margin-bottom: 0; height:auto;">
+                    <li>&nbsp;&nbsp;Tarjetas de débito: VISA, Mastercard </li>
+                    <li>&nbsp;&nbsp;Tarjetas de crédito: VISA, Mastercard, Diners Club, American Express </li>
+                    <li>&nbsp;&nbsp;Transferencia Bancaria</li>
+                    <li>&nbsp;&nbsp;Depósito en cuenta corriente</li>
+                </ul>
+            </td>
+        </tr>
+        
+    </table>
+
+
+    <table width="750.34"
+    cellpadding="0" cellspacing="0" style="background-color:#E5E8EA;">
+        <tbody>
+            <tr >
+                <td style="padding: 20px 0;" width="auto" align="center">
+                    <p  style="padding-bottom: 0px; color:#3C4857;">
+
+                        <strong style="font-family: 'Lato'; font-size: 16px;">
+                            <em>¿Ya tomaste la decisión de participar? Completa tu registro aquí&nbsp;-->&nbsp;</em>
+                        </strong>
+
+                                
+                        <a style="background-color: #9B004C; padding: 7px 16px 7px 16px; text-decoration: none; border-radius: 7px; 
+                            color:white; font-weight:bold; font-family: 'Lato'; font-size: 13.65px;" href="{$global_form_hex}">
+                                Ficha de matrícula
+                        </a>
+
+                    </p>
+                </td>
+                
+            </tr>
+        </tbody>
+    </table>
+
+    <table width="750.34" cellpadding="0" cellspacing="0"
+    style="margin: 30px 0 19px 0"
+    >
+    <tr>
+        <td align="left" style="font-family: 'Lato'; font-size:13px; color:#3C4857;">
+            <p>Esta es una excelente oportunidad para desarrollarte y fortalecer tus conocimientos.</p>
+            <p>Si tienes dudas o consultas contáctame aquí&nbsp;-->&nbsp; 
+                <a style="background-color: #1BB52B; padding: 7px 16px 7px 16px; text-decoration: none; border-radius: 7px; 
+                    color:white;  font-family: 'Lato'; font-size: 12px;" href="https://api.whatsapp.com/send?phone={$current_user_phone}">
+                    <img width="14.5px" height="14.5px"src="https://ingenium.edu.pe/crm/layouts/v7/skins/imgsIngenium/whatsapp.png" alt="" style="display: inline;vertical-align: text-top;">
+                    <strong>&nbsp;Whatsapp</strong>
+                    
+                </a> 
+            </p>
+            <p>Que tengas un excelente día.</p>
+        </td>
+    </tr>
+    </table>
+
+
+    <table width="750.34" cellpadding="0" cellspacing="0"
+    style="margin: 36px 0 19px 0"
+    >
+    <tr>
+        <td align="left" width="129">
+            <table>
+                <tbody>
+                    <tr>
+                        <td align="left">
+                            <a href="http://www.ingenium.edu.pe" target="_blank">
+                                <img src="https://ingenium.edu.pe/crm/layouts/v7/skins/imgsIngenium/Firma-corporativa-ingenium-12.png" alt="Ingenium" width="128.34px" />
+                            </a>
+                            
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </td>
+        <td  width="20" valign="top">
+            <table>
+                <tbody>
+                    <tr>
+                        <td> &nbsp; </td>
+                    </tr>
+                </tbody>
+            </table>
+        </td>
+        <td  width="280" valign="top">
+            <table>
+                <tbody>
+                    <tr>
+                        <td align="left" colspan="2">
+                            <p style="line-height: 14px;padding-bottom: 7px">
+                                <span style="color: #3C3C3B;font-size: 16.7px;font-family: 'Poppins';font-weight: 500;">
+                                    {$current_user_id}
+                                </span><br>
+                                <span style="color: #9B004C;font-size: 12.4px;font-family: 'Poppins';font-weight: 600;">
+                                    {$curren_user_rolename}
+                                </span> 
+                            </p>
+                        </td>
+                    </tr>
+                    <tr style="font-size: 11.16px; font-family: 'Poppins'; line-height: 22px;">
+                        <td>
+                            <a href="tel:{$current_user_phone}" target="_blank" style="text-decoration: none; color:#3C3C3B;">
+                                <img style="display: inline;vertical-align: baseline;"width="10.27" height="10.28" src="https://ingenium.edu.pe/crm/layouts/v7/skins/imgsIngenium/Firma-corporativa-ingenium-10.png"  />
+                                <span>{$current_user_phone}</span>&nbsp;&nbsp;
+                            </a>
+                        </td>
+                        <td>
+                            <a href="https://api.whatsapp.com/send?phone={$current_user_phone}" target="_blank" style="text-decoration: none;color:#3C3C3B;">
+                                <img style="display: inline;vertical-align: baseline;" width="10.59" height="10.59"src="https://ingenium.edu.pe/crm/layouts/v7/skins/imgsIngenium/Firma-corporativa-ingenium-08.png" />
+                                <span>{$current_user_phone}</span>
+                            </a>
+                        </td>
+                    </tr>
+                    <tr style="font-size: 11.16px; font-family: 'Poppins'; line-height: 22px;">
+                        <td align="left" colspan="2">
+                            <a href="mailto:{$current_user_mail}" target="_blank"  style="color:#3C3C3B;text-decoration: none;">
+                                <img style="display: inline;vertical-align: baseline;" width="10.47" height="7.69"src="https://ingenium.edu.pe/crm/layouts/v7/skins/imgsIngenium/Firma-corporativa-ingenium-09.png" />
+                                <span>{$current_user_mail}</span>
+                            </a>
+                        </td>
+                    </tr>
+                    <tr style="font-size: 11.16px; font-family: 'Poppins'; line-height: 22px;">
+                        <td align="left" colspan="2">
+                            <a href="https://maps.app.goo.gl/9DEE1HC2vVGY9Kvf9" target="_blank"  style="color:#3C3C3B;text-decoration: none;">
+                                <img style="display: inline;vertical-align: baseline;" width="9.18" height="12.05"src="https://ingenium.edu.pe/crm/layouts/v7/skins/imgsIngenium/Firma-corporativa-ingenium-07.png" />
+                                <span>Urb. La Marina B1 Cayma - Arequipa</span>
+                            </a>
+                        </td>
+                    </tr>
+                    <tr style="line-height: 32px;">
+                        <td align="left" colspan="2">
+                            <a href="https://facebook.com/IngeniumEFP" target="_blank" style="display: inline-block">
+                                <img width="17" height="17" src="https://ingenium.edu.pe/wp-content/uploads/2021/03/Firma-corporativa-ingenium-06.png" alt="Facebook" style="border:none">
+                            </a>&nbsp;<a href="https://instagram.com/ingeniumefp" target="_blank" style="display: inline-block">
+                                <img width="17" height="17" src="https://ingenium.edu.pe/wp-content/uploads/2021/03/Firma-corporativa-ingenium-05.png" alt="Instagram" style="border:none">
+                            </a>&nbsp;<a href="https://linkedin.com/company/ingeniumefp" target="_blank" style="display: inline-block">
+                                <img width="17" height="17" src="https://ingenium.edu.pe/wp-content/uploads/2021/03/Firma-corporativa-ingenium-04.png" alt="LinkedIn" style="border:none">
+                            </a>&nbsp;<a href="https://youtube.com/channel/UCxdlBxi2GXmgk4nuKg3CqSQ?" target="_blank" style="display: inline-block">
+                                <img width="17" height="17" src="https://ingenium.edu.pe/wp-content/uploads/2021/03/Firma-corporativa-ingenium-03.png" alt="YouTube" style="border:none">
+                            </a>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </td>
+        <td  width="15" valign="top">
+            <table>
+                <tbody>
+                    <tr>
+                        <td> &nbsp; </td>
+                    </tr>
+                </tbody>
+            </table>
+        </td>
+        <td width="" valign="top">
+            <table>
+                <tbody>
+                    <tr><td> &nbsp; </td></tr>
+                    <tr><td> &nbsp; </td></tr>
+                    <tr><td> &nbsp; </td></tr>
+                    <tr><td> &nbsp; </td></tr>
+                    
+                    <tr>
+                        <td>
+                            <img alt="Ingenium" width="40" height="auto" src="https://ingenium.edu.pe/wp-content/uploads/2021/03/Firma-corporativa-ingenium-02.png"> 
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </td>
+    </tr>
+    <tr style="line-height: 15px;">
+        <td colspan="3" align="left">
+            &nbsp;<img alt="Ingenium" width="12" height="8" style="display:inline;vertical-align: baseline;" src="https://ingenium.edu.pe/wp-content/uploads/2021/03/Firma-corporativa-ingenium-11.png">
+            <span  style="font-family: 'Poppins';color:#7AA663;font-size:7.84px; padding-right:4px;">No me imprimas si no es necesario. Protejamos el medio ambiente.</span>
+        </td>
+    </tr>
+    </table>
+
+
+    <table width="750.34"
+    cellpadding="0" cellspacing="0" style="background-color:#E5E5E5;">
+        <tbody>
+            <tr >
+                <td style="padding: 13.17px 0 19.83px 0;" width="auto" align="center">
+                    <p  style="padding-bottom: 0px; line-height: 15px;
+                    font-size: 15px; font-family: 'Lato'; ">
+                        <span style="color: #3C4857;">Visítanos en:</span><br>
+                        <a  style="text-decoration: none;" href="https://ingenium.edu.pe" target="_blank">
+                            <span style="color: #9B004C;">www.ingenium.edu.pe</span>
+                        </a>
+                    </p>
+                </td>
+                
+            </tr>
+        </tbody>
+    </table>
+
+
+
+</body>
+</html>
+
+<!--
+    copiring © 2021
+    date: 04/04/2021 10:25
+    time: 24 horas;
+
+    testing webMail Client on Responsive and Variables with only clases.
+Planificación, Programación y Control del Mantenimiento
+GESTIÓN DEL MANTENIMIENTO DE MAQUINARIA PESADA
+
+    font-family: 'Lato', sans-serif;
+
+    font-family: 'Poppins', sans-serif;
+
+    font-family: 'PT Sans', sans-serif;
+
+    font-family: 'Titillium Web', sans-serif;
+
+    style="padding: 19px 8px 22px 28px;"
+
+-->
